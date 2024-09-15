@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#intro">logo</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top">Top</a></li>
+                    <li><a href="#grid">Grid</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#grid-two">GridTwo</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>A estrutura web para perfeccionistas.</h2>
+
+                <p>Django é um framework web Python de alto nível que incentiva o desenvolvimento rápido e o design
+                    limpo e pragmático. Construído por desenvolvedores experientes, ele cuida de grande parte do
+                    incômodo do desenvolvimento web, para que você possa se concentrar em escrever seu aplicativo sem
+                    precisar reinventar a roda. É gratuito e de código aberto..</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/framework.svg" alt="Logo de Django.">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="top" class="white-bg section">
+        <div class="main-content top-content">
+            <h2>Top 3</h2>
+            <p>Com Django, você pode levar aplicativos web do conceito ao lançamento em questão de horas. Django cuida
+                de grande parte do incômodo do desenvolvimento web, para que você possa se concentrar em escrever seu
+                aplicativo sem precisar reinventar a roda. É gratuito e de código aberto.</p>
+            <p>O Django inclui dezenas de extras que você pode usar para lidar com tarefas comuns de desenvolvimento
+                web. O Django cuida da autenticação de usuários, administração de conteúdo, mapas de sites, feeds RSS e
+                muitas outras tarefas — direto da caixa.</p>
+            <p>O Django leva a segurança a sério e ajuda os desenvolvedores a evitar muitos erros comuns de segurança,
+                como injeção de SQL, cross-site scripting, cross-site request forgery e clickjacking. Seu sistema de
+                autenticação de usuário fornece uma maneira segura de gerenciar contas de usuário e senhas.</p>
+
+        </div>
+
+    </section>
+
+    <section id="grid" class="main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Grid</h2>
+            <p class="grid-description">Django foi inventado para atender aos prazos rápidos</p>
+            <div class="grid">
+                <article>
+                    <h3>Rápido</h3>
+                    <p>O Django foi projetado para ajudar os desenvolvedores a levar os aplicativos do conceito à
+                        conclusão
+                        o mais rápido possível.</p>
+                </article>
+                <article>
+                    <h3>Versátil</h3>
+                    <p>Empresas, organizações e governos têm usado o Django para construir todo tipo de coisa — de
+                        sistemas
+                        de
+                        gerenciamento de conteúdo a redes sociais e plataformas de computação científica.</p>
+                </article>
+                <article>
+                    <h3>Escalável</h3>
+                    <p>Alguns dos sites mais movimentados do planeta usam a capacidade do Django de escalar de forma
+                        rápida
+                        e
+                        flexível para atender às demandas de tráfego mais pesadas.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="gallery" class="white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Django foi inventado para atender aos prazos rápidos</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867761_640.jpg"
+                        alt="random imagem">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_640.jpg"
+                        alt="random imagem">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_640.jpg"
+                        alt="random imagem">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_640.jpg" alt="random imagem">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://cdn.pixabay.com/photo/2018/01/16/10/18/headphones-3085681_640.jpg"
+                        alt="random imagem">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_640.jpg"
+                        alt="random imagem">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">GridTwo</h2>
+            <p class="grid-description">Uma breve descrição.</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque
+                        doloribus
+                        nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad
+                        dolores
+                        provident maiores.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque
+                        doloribus
+                        nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad
+                        dolores
+                        provident maiores.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque
+                        doloribus
+                        nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad
+                        dolores
+                        provident maiores.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top-content">
+            <h2>Pricing</h2>
+            <p>Com Django, você pode levar aplicativos web do conceito ao lançamento em questão de horas. Django cuida
+                de grande parte do incômodo do desenvolvimento web, para que você possa se concentrar em escrever seu
+                aplicativo sem precisar reinventar a roda. É gratuito e de código aberto.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th> Title 1</th>
+                            <th> Title 2</th>
+                            <th> Title 3</th>
+                            <th> Title 4</th>
+                            <th> Title 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+
+
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td> Testando foot</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2 class="contact-heading">Contact us</h2>
+
+                <p>Django é um framework web Python de alto nível que incentiva o desenvolvimento rápido e o design
+                    limpo e pragmático. Construído por desenvolvedores experientes, ele cuida de grande parte do
+                    incômodo do desenvolvimento web, para que você possa se concentrar em escrever seu aplicativo sem
+                    precisar reinventar a roda. É gratuito e de código aberto..</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/contact_us.svg" alt="Logo de Django.">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    <div class="form-group">
+                        <label for="first-name">Fist Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail</label>
+                        <input type="email" name="email" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit"> Send Message</button>
+
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p> © Heder Lopes 2024 • Meu Site • Todos os direitos reservados.</p>
+
+        <div class="footer-link">
+
+            <a href="https://www.linkedin.com/in/hederlopes/" target="_blank">
+                Linkedin
+            </a>
+
+
+            <a href="https://github.com/hederlopes" target="_blank">Github</a>
+
+        </div>
+
+    </footer>
+
+    <a class="back-to-top" href="#intro">➤</a>
+
+</body>
+
+</html>
